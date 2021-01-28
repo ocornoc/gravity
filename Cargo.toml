@@ -1,0 +1,17 @@
+[package]
+name = "gravity"
+version = "0.1.0"
+authors = ["ocornoc <ocornoc@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+bevy = "0.4.0"
+ron = "0.6"
+rand = "0.8.2"
+ultraviolet = {version = "0.7.5", features = ["f64"]}
+serde = "1.0.119"
+anyhow = "1.0.38"
+
+[profile.release]
+# lto = "thin"
+incremental = true

@@ -1,0 +1,114 @@
+([
+    Body(
+        position: (
+            x: ld(0.1),
+            y: ld(0.001),
+            z: ld(0.99),
+        ),
+        mass: lunar_masses(1.0),
+        radius: lunar_radii(1.0),
+        velocity: (
+            change: (
+                x: m(900.0),
+                y: m(10.0),
+                z: m(50.0),
+            )
+        )
+    ),
+    Body(
+        position: (
+            x: ld(0.1),
+            y: ld(0.01),
+            z: ld(0.79),
+        ),
+        mass: lunar_masses(0.8),
+        radius: lunar_radii(0.7),
+        velocity: (
+            change: (
+                x: m(900.0),
+                y: m(10.0),
+                z: m(50.0),
+            )
+        )
+    ),
+    Body(
+        position: (
+            x: ld(0.1),
+            y: ld(0.001),
+            z: ld(-0.99),
+        ),
+        mass: lunar_masses(1.0),
+        radius: lunar_radii(1.0),
+        velocity: (
+            change: (
+                x: m(900.0),
+                y: m(10.0),
+                z: m(50.0),
+            )
+        )
+    ),
+    Body(
+        position: (
+            x: ld(0.1),
+            y: ld(0.01),
+            z: ld(-0.79),
+        ),
+        mass: lunar_masses(0.8),
+        radius: lunar_radii(0.7),
+        velocity: (
+            change: (
+                x: m(900.0),
+                y: m(10.0),
+                z: m(50.0),
+            )
+        )
+    ),
+    Body(
+        position: (
+            x: ld(-0.3),
+            y: ld(0.01),
+            z: ld(-0.39),
+        ),
+        mass: earth_masses(0.8),
+        radius: earth_radii(0.7),
+        velocity: (
+            change: (
+                x: m(700.0),
+                y: m(10.0),
+                z: m(50.0),
+            )
+        )
+    ),
+    Body(
+        position: (
+            x: ld(-0.1),
+            y: ld(0.41),
+            z: ld(0.59),
+        ),
+        mass: earth_masses(1.2),
+        radius: earth_radii(0.7),
+        velocity: (
+            change: (
+                x: m(500.0),
+                y: m(80.0),
+                z: m(100.0),
+            )
+        )
+    ),
+    Body(
+        position: (
+            x: ld(-0.3),
+            y: ld(0.8),
+            z: ld(-0.09),
+        ),
+        mass: earth_masses(0.7),
+        radius: earth_radii(0.7),
+        velocity: (
+            change: (
+                x: m(100.0),
+                y: m(700.0),
+                z: m(50.0),
+            )
+        )
+    ),
+])
